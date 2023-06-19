@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.videoSidebar{
+    position: absolute;
+    top: 40%;
+    right: 2px;
+    color: white;
+    text-shadow: 0px 0px 10px #2c2c2c;
+}
+
+.videoSidebar__options{
+    padding: 10px;
+    text-align: center;
+    filter: drop-shadow(0px 0px 10px #2c2c2c);
+
+}
+
+
+@media only screen and ( max-width: 440px ){
+    .videoSidebar{
+        top: 30%;
+    }
+  }
